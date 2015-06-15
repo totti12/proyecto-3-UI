@@ -34,7 +34,7 @@ _En este documento se detallará más a fondo la aplicación desarrollada para l
 <!-- Desarrollo / Modelo de Datos  -->
 #### La aplicación tendrá un único modelo de datos, dicho modelo no depende más que del análisis del problema/investigación inicial.
 <div align="center">
- <img src="../imagenes/modeloDatos.png" title="Modelo Datos MailTool">
+ <img src="imagenes/modeloDatos.png" title="Modelo Datos MailTool">
  <div align="center"></div>
 </div>
 
@@ -76,19 +76,19 @@ Para el problema/investigación inicial se crearon las siguiente entidades:
 ##### IFML Login
 <!-- IFML Login -->	
 <div align="center">
- <img src="../imagenes/principal/login_ifml.png" title="IFML Login">
+ <img src="imagenes/principal/login_ifml.png" title="IFML Login">
  <div align="center"></div>
 </div>
 En este **Diagrama IFML** podemos observar cómo se comportará nuestra aplicación en el inicio de la misma, este **diagrama** proveerá la funcionalidad del inicio de sesión para nuestra aplicación por medio de las funcionalidades  _registrarse_ e _Iniciar Sesión_ . Este **diagrama respaldará nuestro primer Mockup**.
 ##### Mockups Login
 <div align="center">
- <img src="../imagenes/principal/login_mockup.png" title="Mockup Login">
+ <img src="imagenes/principal/login_mockup.png" title="Mockup Login">
  <div align="center"></div>
 </div>
 Este **Mockup** provee la primer visualización de nuestra [aplicación](http://www.mail.mailtoo.com), la misma permitirá el ingreso al sistema. Cuenta con _etiquetas_ ,la primera llamada _Nombre de Usuario_ con su respectivo campo, servirá para digitar nuestro nombre de usuario de correo, enseguida se muestra la segunda etiqueta llamada _Contraseña_ con su respectivo campo, dicho campo es para digitar nuestra contraseña de correo electrónico. En dado caso que no se tenga una cuenta, la opción superior derecha identificada con un _botón_ cuya etiqueta _Crear cuenta_ nos proveerá la opción de creación de una cuenta de correo [MailTool](http://www.mail.mailtoo.com). Seguidamente que digitemos nuestro credenciales aparecerá nuestro segundo **Diagrama IFML** llamado _Principal_.
 ##### IFML Principal
 <div align="center">
- <img src="../imagenes/principal/principal_ifml.png" title="IFML Principal">
+ <img src="imagenes/principal/principal_ifml.png" title="IFML Principal">
  <div align="center"></div>
 </div>
 En este **Diagrama IFML** se pueden ver claramente los módulos: 
@@ -112,7 +112,7 @@ Este **Diagrama IFML** nos permitirá crear el **Mockup** asociado al mismo. El 
 
 ##### Mockups Principal
 <div align="center">
- <img src="../imagenes/principal/principal_mockup.png" title="Mockup Principal">
+ <img src="imagenes/principal/principal_mockup.png" title="Mockup Principal">
  <div align="center"></div>
 </div>
 En nuestro **Mockup** _Principal_ se lleva a cabo la implementación de nuestro anterior **Diagrama IFML** , y como puede observarse en primera instancia los _Mensajes/Entrada_ aparecen por defecto seleccionados, a la derecha se muestran los mismos, acá mismo se asocian las implementaciones de los submódulos **Detalles**_,_**Eliminar Mensaje**_,_**Nuevo Mensaje**_ propios del módulo **Mensajes** , pero más adelante detallaré. Posteriormente abajo de _Mensajes/Entrada_ se puede observar la implementación a nuestro módulo **Contactos** y se asocian los los submódulos del mismo _**Nuevo**_,_**Eliminar**_,_**Ver**_.
@@ -125,7 +125,7 @@ En nuestro **Mockup** _Principal_ se lleva a cabo la implementación de nuestro 
 </div>
 ##### IFML Mensajes
 <div align="center">
- <img src="../imagenes/mensajes/mensajes_ifml.png" title="IFML Mensajes">
+ <img src="imagenes/mensajes/mensajes_ifml.png" title="IFML Mensajes">
  <div align="center"></div>
 </div>
 En este **Diagrama IFML** se muestra el funcionamiento o composición de este módulo. Tendremos una lista **"MultiChoise"** de elementos que por defecto serán los mensajes de entrada y sus elementos visibles **VisibleAttributes** serán:
@@ -138,7 +138,7 @@ En este **Diagrama IFML** se muestra el funcionamiento o composición de este m�
 Acontinuación el **Mockup** asociado a esta funcionalidad:
 ##### Mockup Mensajes
 <div align="center">
- <img src="../imagenes/mensajes/mensajes_mockup.png" title="Mockup Mensajes">
+ <img src="imagenes/mensajes/mensajes_mockup.png" title="Mockup Mensajes">
  <div align="center"></div>
 </div>
 
@@ -152,7 +152,7 @@ Se puede observar en el módulo **Mensajes** la selección por defecto de Entrad
 </div>
 ##### IFML Detalles Mensaje
 <div align="center">
- <img src="../imagenes/mensajes/detallesMensaje_ifml.png" title="IFML Detalles Mensaje">
+ <img src="imagenes/mensajes/detallesMensaje_ifml.png" title="IFML Detalles Mensaje">
  <div align="center"></div>
 </div>
 
@@ -160,7 +160,7 @@ En este caso el **Diagrama IFML** mostrará la funcionalidad de ver detalles de 
 
 ##### Mockups Mensaje/Seleccion
 <div align="center">
- <img src="../imagenes/mensajes/seleccionMensaje_mockup.png" title="Mockup Detalles Mensaje">
+ <img src="imagenes/mensajes/seleccionMensaje_mockup.png" title="Mockup Detalles Mensaje">
  <div align="center"></div>
 </div>
 
@@ -168,7 +168,7 @@ Como se puede observar se ha seleccionado el mensaje perteneciente al correo **m
 
 ##### Mockups Mensaje/Detalles
 <div align="center">
- <img src="../imagenes/mensajes/detallesMensaje_mockup.png" title="Mockup Detalles Mensaje">
+ <img src="imagenes/mensajes/detallesMensaje_mockup.png" title="Mockup Detalles Mensaje">
  <div align="center"></div>
 </div>
 
@@ -182,7 +182,7 @@ Se muestra el detalle del mensaje al que se le ha dado doble click. Se muestran 
 </div>
 ##### IFML Nuevo Mensaje
 <div align="center">
- <img src="../imagenes/mensajes/nuevo_ifml.png" title="IFML Nuevo Mensaje">
+ <img src="imagenes/mensajes/nuevo_ifml.png" title="IFML Nuevo Mensaje">
  <div align="center"></div>
 </div>
 
@@ -190,7 +190,7 @@ En este **Diagrama IFML** se llevará a cabo la funcionalidad de creación o red
 
 ##### Mockups Mensaje/Nuevo
 <div align="center">
- <img src="../imagenes/mensajes/nuevo_mockup.png" title="Mockup Nuevo Mensaje">
+ <img src="imagenes/mensajes/nuevo_mockup.png" title="Mockup Nuevo Mensaje">
  <div align="center"></div>
 </div>
 
@@ -198,7 +198,7 @@ En este caso se selecciona la opción superior izquiera llamada _Nuevo Mensaje_ 
 
 ##### Mockups Mensaje/Salida
 <div align="center">
- <img src="../imagenes/mensajes/mensajeSalida_mockup.png" title="Mockup Nuevo Mensaje/ Salida">
+ <img src="imagenes/mensajes/mensajeSalida_mockup.png" title="Mockup Nuevo Mensaje/ Salida">
  <div align="center"></div>
 </div>
 <!-- Módulos/Mensajes/Submódulo/Eliminar -->
@@ -209,7 +209,7 @@ En este caso se selecciona la opción superior izquiera llamada _Nuevo Mensaje_ 
 </div>
 ##### IFML Eliminar Mensaje
 <div align="center">
- <img src="../imagenes/mensajes/eliminarMensaje_ifml.png" title="IFML Eliminar Mensaje">
+ <img src="imagenes/mensajes/eliminarMensaje_ifml.png" title="IFML Eliminar Mensaje">
  <div align="center"></div>
 </div>
 
@@ -217,7 +217,7 @@ Para este caso el **Diagrama IFML** la secuencia de acciones es muy similar que 
 
 ##### Mockups Mensaje/Seleción a Eliminar
 <div align="center">
- <img src="../imagenes/mensajes/eliminarSeleccionados_mockup.png" title="Mockup Seleccion a Eliminar">
+ <img src="imagenes/mensajes/eliminarSeleccionados_mockup.png" title="Mockup Seleccion a Eliminar">
  <div align="center"></div>
 </div>
 
@@ -225,7 +225,7 @@ Se muestra en la parte superior la **notificación** que dice el número de mens
 
 ##### Mockups Mensaje/Confirmación Eliminar
 <div align="center">
- <img src="../imagenes/mensajes/confirmacionEliminacion_mockup.png" title="Mockup Confirmación">
+ <img src="imagenes/mensajes/confirmacionEliminacion_mockup.png" title="Mockup Confirmación">
  <div align="center"></div>
 </div>
 
@@ -233,7 +233,7 @@ Se muestra un cuadro de diálogo para confirmar la eliminación de los mensajes.
 
 ##### Mockups Mensaje/Nueva Lista Mensajes
 <div align="center">
- <img src="../imagenes/mensajes/nuevosListaMensajesEliminados_mockup.png" title="Mockup Nueva Lista Mensajes">
+ <img src="imagenes/mensajes/nuevosListaMensajesEliminados_mockup.png" title="Mockup Nueva Lista Mensajes">
  <div align="center"></div>
 </div>
 
@@ -241,7 +241,7 @@ Se muestra en la parte superior la notificación **2 Mensajes Eliminados Correct
 
 ##### IFML Buscar Mensaje
 <div align="center">
- <img src="../imagenes/mensajes/busqueda_mensaje_ifml.png" title="IFML Buscar Mensaje">
+ <img src="imagenes/mensajes/busqueda_mensaje_ifml.png" title="IFML Buscar Mensaje">
  <div align="center"></div>
 </div>
 
@@ -250,7 +250,7 @@ Este **Diagrama de IFML** tendrá la funcionalidad de buscar entre los mensajes 
 ##### Mockups Busqueda Mensaje
 
 <div align="center">
- <img src="../imagenes/mensajes/busquedaMensaje_mockup.png" title="Mockup Nueva Lista Mensajes">
+ <img src="imagenes/mensajes/busquedaMensaje_mockup.png" title="Mockup Nueva Lista Mensajes">
  <div align="center"></div>
 </div>
 
@@ -269,7 +269,7 @@ Se muestra el resultado de la búsqueda, además de la notificación **_Mensaje 
 </div>
 ##### IFML Ver Contactos
 <div align="center">
- <img src="../imagenes/contactos/verContactos_ifml.png" title="IFML Ver Contactos">
+ <img src="imagenes/contactos/verContactos_ifml.png" title="IFML Ver Contactos">
  <div align="center"></div>
 </div>
 
@@ -277,7 +277,7 @@ En esta ocasión se mostrarán los contactos que tenga el usuario, además si se
 
 ##### Mockup Ver Contactos
 <div align="center">
- <img src="../imagenes/contactos/verContactos_mockup.png" title="Mockup Ver Contactos">
+ <img src="imagenes/contactos/verContactos_mockup.png" title="Mockup Ver Contactos">
  <div align="center"></div>
 </div>
 
@@ -285,7 +285,7 @@ Como se puede apreciar ahora la opción seleccionada dentro de nuestro módulo _
 
 ##### Mockup Seleccionar Contacto
 <div align="center">
- <img src="../imagenes/contactos/seleccionContacto_mockup.png" title="Mockup Ver Contactos">
+ <img src="imagenes/contactos/seleccionContacto_mockup.png" title="Mockup Ver Contactos">
  <div align="center"></div>
 </div>
 
@@ -293,7 +293,7 @@ Se ha seleccionado el _Contacto_ **Grace Rojas**, en la parte superior se muestr
 
 ##### Mockup Detalles Contacto
 <div align="center">
- <img src="../imagenes/contactos/detallesContacto_mockup.png" title="Mockup Ver Contactos">
+ <img src="imagenes/contactos/detallesContacto_mockup.png" title="Mockup Ver Contactos">
  <div align="center"></div>
 </div>
 
@@ -308,7 +308,7 @@ En la parte superior se muestra la notificación respectiva.
 
 ##### IFML Nuevo Contacto
 <div align="center">
- <img src="../imagenes/contactos/AgregarContactos_ifml.png" title="IFML Nuevo Contacto">
+ <img src="imagenes/contactos/AgregarContactos_ifml.png" title="IFML Nuevo Contacto">
  <div align="center"></div>
 </div>
 
@@ -316,7 +316,7 @@ En este caso estando dentro del módulo **Contactos** si damos la opción nuevo 
 
 ##### Mockup Nuevo Contacto
 <div align="center">
- <img src="../imagenes/contactos/nuevoContacto_mockup.png" title="Mockup Nuevo Contacto">
+ <img src="imagenes/contactos/nuevoContacto_mockup.png" title="Mockup Nuevo Contacto">
  <div align="center"></div>
 </div>
 
@@ -324,7 +324,7 @@ Se ha dado la opción **Agregar** por lo que en la parte superior nos muestra la
 
 ##### Mockup Lista con Nuevo Contacto
 <div align="center">
- <img src="../imagenes/contactos/verContactos_mockup.png" title="Mockup Nueva Lista Contactos">
+ <img src="imagenes/contactos/verContactos_mockup.png" title="Mockup Nueva Lista Contactos">
  <div align="center"></div>
 </div>
 
@@ -339,7 +339,7 @@ Se observa que en efecto se ha agregado el nuevo contacto.
 
 ##### IFML Eliminar Contacto
 <div align="center">
- <img src="../imagenes/contactos/EliminarContactos_ifml.png" title="Mockup Nueva Lista Contactos">
+ <img src="imagenes/contactos/EliminarContactos_ifml.png" title="Mockup Nueva Lista Contactos">
  <div align="center"></div>
 </div>
 
@@ -347,7 +347,7 @@ Acá se podrá llevar a cabo la eliminación de un(os) contacto(s), dicho(s) con
 
 ##### Mockup Selección Contacto
 <div align="center">
- <img src="../imagenes/contactos/eliminarContacto_mockup.png" title="Mockup Contacto Eliminar">
+ <img src="imagenes/contactos/eliminarContacto_mockup.png" title="Mockup Contacto Eliminar">
  <div align="center"></div>
 </div>
 
@@ -355,7 +355,7 @@ En este caso se ha seleccionado el Contacto **Marcela Hernandez** y se ha proced
 
 ##### Mockup Confirmación Eliminar Contacto
 <div align="center">
- <img src="../imagenes/contactos/confirmarEliminar.png" title="Mockup Confirmación">
+ <img src="imagenes/contactos/confirmarEliminar.png" title="Mockup Confirmación">
  <div align="center"></div>
 </div>
 
@@ -363,7 +363,7 @@ En este caso se dará la opción **Ok** por lo que obtendremos una nueva lista o
 
 ##### Mockup Nueva Lista Contactos
 <div align="center">
- <img src="../imagenes/contactos/nuevoContactoEliminar_mockup.png" title="Mockup Confirmación">
+ <img src="imagenes/contactos/nuevoContactoEliminar_mockup.png" title="Mockup Confirmación">
  <div align="center"></div>
 </div>
 
