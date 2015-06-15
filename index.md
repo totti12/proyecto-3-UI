@@ -16,7 +16,7 @@
 </div>
 <!-- Logo Universidad -->	
 <div align="center">
- <img src="../imagenes/una.png" title="Universidad Nacional">
+ <img src="imagenes/una.png" title="Universidad Nacional">
  <div align="center"></div>
 </div>
 <!-- Introducción -->
